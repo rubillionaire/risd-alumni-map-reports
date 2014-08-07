@@ -1,0 +1,1 @@
+[RISD Alumni Filterable Map](http://rubillionaire.github.io/risd-alumni-map-filterable)

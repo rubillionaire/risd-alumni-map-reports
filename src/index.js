@@ -40,7 +40,7 @@ var UniqueCategoricalValues = function () {
             container
                 .append('ul')
                 .selectAll('.list-item' + slugify(key))
-                .data(categorical_values_by_key[key])
+                .data(categorical_values_by_key[key].sort())
                 .enter()
                 .append("li")
                 .attr('class',  'list-item' + slugify(key))
